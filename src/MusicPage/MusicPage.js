@@ -1,13 +1,13 @@
 import React from 'react';
-import '../App.css';
-import Header from "./Header/Header";
+import styles from './MusicPage.module.css';
 
-function App() {
+
+const MusicPage = () => {
   return (
-    <div>
-    <Header/>
+    <div className={styles.music}>
+    gfgfhgfhg
     </div>
   );
 }
 
-export default App;
+export default MusicPage;

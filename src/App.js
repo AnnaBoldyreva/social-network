@@ -5,6 +5,7 @@ import Navbar from "./Navbar/Navbar";
 import Profile from "./Profile/Profile";
 import DialogsPage from "./DialogsPage/DialogsPage";
 import News from "./News/News";
+import MusicPage from "./MusicPage/MusicPage";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
    <Profile/>
    <DialogsPage/>
    <News/>
+   <MusicPage/>
     </div>
   );
 }
