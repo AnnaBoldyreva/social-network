@@ -1,13 +1,13 @@
 import React from 'react';
-import '../App.css';
-import Header from "./Header/Header";
+import styles from './News.module.css';
 
-function App() {
+
+const News = () => {
   return (
-    <div>
-    <Header/>
+    <div className={styles.news}>
+   fklmks
     </div>
   );
 }
 
-export default App;
+export default News;
