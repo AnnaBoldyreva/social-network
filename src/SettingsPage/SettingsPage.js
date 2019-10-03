@@ -1,13 +1,12 @@
 import React from 'react';
-import '../App.css';
-import Header from "./Header/Header";
+import styles from './SettingsPage.module.css';
 
-function App() {
+const SettingsPage = () => {
   return (
-    <div>
-    <Header/>
+    <div className={styles.settings}>
+    gkflkglfkg
     </div>
   );
 }
 
-export default App;
+export default SettingsPage;
