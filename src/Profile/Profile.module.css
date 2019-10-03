@@ -1,5 +1,6 @@
 .profile{
-  background-color: paleturquoise;
+  grid-area: profile;
+  background: rgba(43,117,179,1);
 }
 
 
