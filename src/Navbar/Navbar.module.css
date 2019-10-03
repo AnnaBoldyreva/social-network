@@ -1,5 +1,6 @@
-.navbar{
-  background-color: lightseagreen;
+.navigation {
+  grid-area: nav;
+  background: rgba(112,139,161,5);
 }
 
 
