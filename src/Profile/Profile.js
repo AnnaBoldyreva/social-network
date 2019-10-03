@@ -1,13 +1,13 @@
 import React from 'react';
-import '../App.css';
-import Header from "./Header/Header";
+import styles from './Profile.module.css';
 
-function App() {
+
+const Profile = () => {
   return (
-    <div>
-    <Header/>
+    <div className={styles.profile}>
+    gkfgkfgkl
     </div>
   );
 }
 
-export default App;
+export default Profile;
