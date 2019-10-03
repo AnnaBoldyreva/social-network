@@ -1,5 +1,11 @@
-.head{
-  background-color: thistle;
+.header {
+  grid-area: header;
+  background: rgba(112,139,161,5);
 }
 
+.header img {
+  width: 60px;
+  display: block;
+  margin: 10px 10px;
+}
 

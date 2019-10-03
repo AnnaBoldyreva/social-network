@@ -1,5 +1,27 @@
-.App {
-  text-align: center;
+.appWrapper {
+  display: grid;
+  grid-template-areas:
+  'header header'
+  'nav profile';
+  grid-template-rows: 10% 1fr;
+  grid-template-columns: 20% 80%;
+  padding: 20px;
+  grid-gap: 5px;
+  height: 100vh;
+  margin: 0;
+}
+
+.appWrapperDia{
+  display: grid;
+  grid-template-areas:
+  'header header header'
+  'nav dialog message';
+  grid-template-rows: 40px 1fr;
+  grid-template-columns: 20% 30% 1fr;
+  padding: 20px;
+  grid-gap: 5px;
+  height: 100vh;
+  margin: 0;
 }
 
 

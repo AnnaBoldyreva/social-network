@@ -11,7 +11,7 @@ import SettingsPage from "./SettingsPage/SettingsPage";
 
 function App() {
   return (
-    <div>
+    <div className='appWrapper'>
    <Header/>
    <Navbar/>
    <Profile/>
