@@ -1,10 +1,10 @@
 import React from 'react';
-import '../App.css';
+import styles from './Header.module.css';
 
 function Header() {
   return (
-    <div>
-
+    <div className={styles.head}>
+     gfgkgkfk
     </div>
   );
 }
