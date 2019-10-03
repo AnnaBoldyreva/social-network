@@ -1,13 +1,13 @@
 import React from 'react';
-import '../App.css';
-import Header from "./Header/Header";
+import styles from './DialogsPage.module.css';
 
-function App() {
+
+const DialogsPage = () => {
   return (
-    <div>
-    <Header/>
+    <div className={styles.dialogs}>
+   ffdfdf
     </div>
   );
 }
 
-export default App;
+export default DialogsPage;
