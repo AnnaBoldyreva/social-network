@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.module.css" afterDir="false" />
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/News/News.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,7 @@
       <updated>1569844256151</updated>
       <workItem from="1569844257483" duration="1694000" />
       <workItem from="1570111220311" duration="6496000" />
-      <workItem from="1570172926159" duration="1533000" />
+      <workItem from="1570172926159" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570174620179</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add grid styles to DialogsPage">
+      <created>1570175031619</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570175031619</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +244,7 @@
     <MESSAGE value="add grid styles to Navbar + add list of navigation items" />
     <MESSAGE value="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts" />
     <MESSAGE value="add two components Dialog &amp; Message to component DialogPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add two components Dialog &amp; Message to component DialogPage" />
+    <MESSAGE value="add grid styles to DialogsPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add grid styles to DialogsPage" />
   </component>
 </project>
