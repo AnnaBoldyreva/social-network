@@ -7,8 +7,12 @@ import Message from "./MessagePage/Message";
 const DialogsPage = () => {
   return (
     <div className={styles.dialogs}>
-   <Dialog/>
-   <Message/>
+        <div className={styles.dialogsItems}>
+            <Dialog/>
+        </div>
+        <div className={styles.messages}>
+           <Message/>
+        </div>
     </div>
   );
 };

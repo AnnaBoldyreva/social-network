@@ -1,3 +1,18 @@
 .dialogs{
-  background-color: khaki;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems{
+  padding: 20px;
+  background-color: rgb(145,170,201);
+}
+
+.dialogsItems .active {
+  color: rgb(46,100,166);
+}
+
+.messages{
+  padding: 20px;
+  background-color: rgb(182,201,224);
 }

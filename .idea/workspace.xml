@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +20,26 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DialogsPage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DialogsPage" />
+      <recent name="$PROJECT_DIR$/src/Profile" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DialogsPage/MessagePage" />
+      <recent name="$PROJECT_DIR$/src/DialogsPage/Dialog" />
+      <recent name="$PROJECT_DIR$/src/Profile/MyPosts" />
+      <recent name="$PROJECT_DIR$/src/Profile/ProfileInfo" />
+      <recent name="$PROJECT_DIR$/src/SettingsPage" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,8 +78,109 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569844256151</updated>
-      <workItem from="1569844257483" duration="1604000" />
+      <workItem from="1569844257483" duration="1694000" />
+      <workItem from="1570111220311" duration="6496000" />
+      <workItem from="1570172926159" duration="1533000" />
     </task>
+    <task id="LOCAL-00001" summary="start new app">
+      <created>1569846919737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569846919737</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add new directories and js files">
+      <created>1570115067354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570115067354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add css module files to components directions">
+      <created>1570115412802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570115412802</updated>
+    </task>
+    <task id="LOCAL-00004" summary="import &amp; export Header">
+      <created>1570115661856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570115661856</updated>
+    </task>
+    <task id="LOCAL-00005" summary="import &amp; export Navbar">
+      <created>1570116005988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116005988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="import &amp; export Profile">
+      <created>1570116203738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116203738</updated>
+    </task>
+    <task id="LOCAL-00007" summary="import &amp; export DialogsPage">
+      <created>1570116491407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116491407</updated>
+    </task>
+    <task id="LOCAL-00008" summary="import &amp; export News">
+      <created>1570116599818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116599818</updated>
+    </task>
+    <task id="LOCAL-00009" summary="import &amp; export &lt;MusicPage">
+      <created>1570116704532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116704532</updated>
+    </task>
+    <task id="LOCAL-00010" summary="import &amp; export SettingsPage">
+      <created>1570116824080</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570116824080</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add grid styles to App and Header + add logo img">
+      <created>1570117681980</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570117681980</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add grid styles to Navbar + add list of navigation items">
+      <created>1570118046192</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570118046192</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts">
+      <created>1570119396710</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570119396710</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add two components Dialog &amp; Message to component DialogPage">
+      <created>1570174620179</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570174620179</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,12 +189,56 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/annaboldyreva/WebstormProjects/social-network/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start new app" />
+    <MESSAGE value="add new directories and js files" />
+    <MESSAGE value="add css module files to components directions" />
+    <MESSAGE value="import &amp; export Header" />
+    <MESSAGE value="import &amp; export Navbar" />
+    <MESSAGE value="import &amp; export Profile" />
+    <MESSAGE value="import &amp; export DialogsPage" />
+    <MESSAGE value="import &amp; export News" />
+    <MESSAGE value="import &amp; export &lt;MusicPage" />
+    <MESSAGE value="import &amp; export SettingsPage" />
+    <MESSAGE value="add grid styles to App and Header + add logo img" />
+    <MESSAGE value="add grid styles to Navbar + add list of navigation items" />
+    <MESSAGE value="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts" />
+    <MESSAGE value="add two components Dialog &amp; Message to component DialogPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add two components Dialog &amp; Message to component DialogPage" />
   </component>
 </project>
