@@ -5,11 +5,12 @@ import styles from './Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={styles.navigation}>
-    <div>Profile</div>
-      <div>Messages</div>
-      <div>News</div>
-      <div>Music</div>
-      <div>Settings</div>
+      <div><a href='/profile'>Profile</a></div>
+        <div> <a href='/messages'>Messages</a></div>
+          <div> <a href='news'>News</a></div>
+            <div> <a href='music'>Music</a></div>
+              <div><a href='settings'>Settings</a></div>
+
     </div>
   );
 }

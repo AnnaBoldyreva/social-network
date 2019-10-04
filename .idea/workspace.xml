@@ -4,8 +4,7 @@
     <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar/Navbar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <workItem from="1569844257483" duration="1694000" />
       <workItem from="1570111220311" duration="6496000" />
       <workItem from="1570172926159" duration="2437000" />
-      <workItem from="1570191040354" duration="5119000" />
+      <workItem from="1570191040354" duration="6113000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570196531769</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="react router dom installed">
+      <created>1570198933853</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570198933853</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +304,7 @@
     <MESSAGE value="add component Post into component MyPosts" />
     <MESSAGE value="add first props in Post component" />
     <MESSAGE value="reconstruction styles for content area" />
-    <option name="LAST_COMMIT_MESSAGE" value="reconstruction styles for content area" />
+    <MESSAGE value="react router dom installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="react router dom installed" />
   </component>
 </project>
