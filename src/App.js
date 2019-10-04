@@ -15,8 +15,8 @@ function App() {
    <Header/>
    <Navbar/>
         <div className='contentWrapper'>
-   <Profile/>
-  {/*<DialogsPage/>*/}
+   {/*<Profile/>*/}
+  <DialogsPage/>
   {/* <News/>*/}
   {/* <MusicPage/>*/}
   {/* <SettingsPage/>*/}

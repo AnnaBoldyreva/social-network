@@ -6,6 +6,7 @@ import Message from "./MessagePage/Message";
 
 const DialogsPage = () => {
   return (
+
     <div className={styles.dialogs}>
         <div className={styles.dialogsItems}>
             <Dialog/>
