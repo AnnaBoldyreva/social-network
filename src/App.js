@@ -15,10 +15,10 @@ function App() {
    <Header/>
    <Navbar/>
    <Profile/>
-   <DialogsPage/>
-   <News/>
-   <MusicPage/>
-   <SettingsPage/>
+  {/*<DialogsPage/>*/}
+  {/* <News/>*/}
+  {/* <MusicPage/>*/}
+  {/* <SettingsPage/>*/}
     </div>
   );
 }
