@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Profile/MyPosts/PostItem/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Profile/MyPosts/PostItem/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DialogsPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Profile/MyPosts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -27,17 +29,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/DialogsPage" />
-      <recent name="$PROJECT_DIR$/src/Profile" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Profile/MyPosts/PostItem" />
       <recent name="$PROJECT_DIR$/src/DialogsPage/MessagePage" />
       <recent name="$PROJECT_DIR$/src/DialogsPage/Dialog" />
       <recent name="$PROJECT_DIR$/src/Profile/MyPosts" />
       <recent name="$PROJECT_DIR$/src/Profile/ProfileInfo" />
-      <recent name="$PROJECT_DIR$/src/SettingsPage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Profile/MyPosts" />
+      <recent name="$PROJECT_DIR$/src/DialogsPage" />
+      <recent name="$PROJECT_DIR$/src/Profile" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -79,7 +82,8 @@
       <updated>1569844256151</updated>
       <workItem from="1569844257483" duration="1694000" />
       <workItem from="1570111220311" duration="6496000" />
-      <workItem from="1570172926159" duration="2072000" />
+      <workItem from="1570172926159" duration="2437000" />
+      <workItem from="1570191040354" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570175439139</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="disabled styles.settings in component SettingsPage">
+      <created>1570175529295</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570175529295</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +273,7 @@
     <MESSAGE value="add grid styles to DialogsPage" />
     <MESSAGE value="disabled styles.news in component News" />
     <MESSAGE value="disabled styles.music in component MusicPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="disabled styles.music in component MusicPage" />
+    <MESSAGE value="disabled styles.settings in component SettingsPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabled styles.settings in component SettingsPage" />
   </component>
 </project>
