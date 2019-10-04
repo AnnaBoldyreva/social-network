@@ -4,10 +4,10 @@ import styles from './News.module.css';
 
 const News = () => {
   return (
-    <div className={styles.news}>
-   fklmks
-    </div>
+    //<div className={styles.news}>
+        <div>News</div>
+    //</div>
   );
-}
+};
 
 export default News;
