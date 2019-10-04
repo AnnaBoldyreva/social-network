@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SettingsPage/SettingsPage.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
       <updated>1569844256151</updated>
       <workItem from="1569844257483" duration="1694000" />
       <workItem from="1570111220311" duration="6496000" />
-      <workItem from="1570172926159" duration="1791000" />
+      <workItem from="1570172926159" duration="2072000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -185,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570175031619</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="disabled styles.news in component News">
+      <created>1570175343000</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570175343000</updated>
+    </task>
+    <task id="LOCAL-00017" summary="disabled styles.music in component MusicPage">
+      <created>1570175439139</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570175439139</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +260,8 @@
     <MESSAGE value="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts" />
     <MESSAGE value="add two components Dialog &amp; Message to component DialogPage" />
     <MESSAGE value="add grid styles to DialogsPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add grid styles to DialogsPage" />
+    <MESSAGE value="disabled styles.news in component News" />
+    <MESSAGE value="disabled styles.music in component MusicPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabled styles.music in component MusicPage" />
   </component>
 </project>
