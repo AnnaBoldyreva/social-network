@@ -24,4 +24,10 @@
   margin: 0;
 }
 
+.contentWrapper{
+  grid-area: profile;
+  background: rgba(43,117,179,1);
+}
+
+
 

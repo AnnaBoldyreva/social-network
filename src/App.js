@@ -14,11 +14,13 @@ function App() {
     <div className='appWrapper'>
    <Header/>
    <Navbar/>
+        <div className='contentWrapper'>
    <Profile/>
   {/*<DialogsPage/>*/}
   {/* <News/>*/}
   {/* <MusicPage/>*/}
   {/* <SettingsPage/>*/}
+        </div>
     </div>
   );
 }
