@@ -6,11 +6,11 @@ import {NavLink} from "react-router-dom";
 const Navbar = () => {
   return (
     <div className={styles.navigation}>
-      <div><NavLink to ='/profile'>Profile</NavLink></div>
-        <div> <NavLink to ='/messages'>Messages</NavLink></div>
-          <div><NavLink to ='/news'>News</NavLink></div>
-            <div><NavLink to ='/music'>Music</NavLink></div>
-              <div><NavLink to ='/settings'>Settings</NavLink></div>
+      <div className={styles.navItem}><NavLink to ='/profile'>Profile</NavLink></div>
+        <div className={styles.navItem}> <NavLink to ='/messages'>Messages</NavLink></div>
+          <div className={styles.navItem}><NavLink to ='/news'>News</NavLink></div>
+            <div className={styles.navItem}><NavLink to ='/music'>Music</NavLink></div>
+              <div className={styles.navItem}><NavLink to ='/settings'>Settings</NavLink></div>
 
     </div>
   );
