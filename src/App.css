@@ -11,18 +11,18 @@
   margin: 0;
 }
 
-.appWrapperDia{
-  display: grid;
-  grid-template-areas:
-  'header header header'
-  'nav dialog message';
-  grid-template-rows: 40px 1fr;
-  grid-template-columns: 20% 30% 1fr;
-  padding: 20px;
-  grid-gap: 5px;
-  height: 100vh;
-  margin: 0;
-}
+/*.appWrapperDia{*/
+/*  display: grid;*/
+/*  grid-template-areas:*/
+/*  'header header header'*/
+/*  'nav dialog message';*/
+/*  grid-template-rows: 40px 1fr;*/
+/*  grid-template-columns: 20% 30% 1fr;*/
+/*  padding: 20px;*/
+/*  grid-gap: 5px;*/
+/*  height: 100vh;*/
+/*  margin: 0;*/
+/*}*/
 
 .contentWrapper{
   grid-area: profile;

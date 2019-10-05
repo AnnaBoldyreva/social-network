@@ -11,6 +11,7 @@ const DialogsPage = () => {
         <div className={styles.dialogsItems}>
             <Dialog/>
         </div>
+
         <div className={styles.messages}>
            <Message/>
         </div>
