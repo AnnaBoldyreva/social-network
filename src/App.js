@@ -19,7 +19,7 @@ function App() {
 
         <div className='contentWrapper'>
             <Route path='/profile'  component={Profile}/>
-            <Route path='/messages' component={DialogsPage}/>
+            <Route exact path='/dialogs'  component={DialogsPage}/>
             <Route path='/news'     component={News}/>
             <Route path='/music'    component={MusicPage}/>
             <Route path='/settings' component={SettingsPage}/>

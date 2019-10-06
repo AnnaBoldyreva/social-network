@@ -4,9 +4,9 @@
 
 .dialogItems{
     padding: 20px;
-    background-color: rgb(145,170,201);
+    /*background-color: rgb(145,170,201);*/
 }
 
 .dialogItems .active {
-    color: rgb(46,100,166);
+    color: #acb28e;
 }
