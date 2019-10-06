@@ -17,7 +17,9 @@ const DialogsPage = () => {
         </div>
 
         <div className={styles.messages}>
-           <Message/>
+           <Message message='Hello' />
+           <Message message='How are you?' />
+           <Message message='Good,you?' />
         </div>
     </div>
   );

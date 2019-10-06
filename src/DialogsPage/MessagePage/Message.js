@@ -3,14 +3,12 @@ import styles from './Message.module.css';
 
 
 
-const Message = () => {
+const Message = (props) => {
   return (
-    <div className={styles.messageItems}>
-        <div className={styles.message}>Hello</div>
-        <div className={styles.message}>How are you?</div>
-        <div className={styles.message}>Good,you?</div>
-    </div>
+
+        <div className={styles.message}>{props.message}</div>
+
   );
-}
+};
 
 export default Message;
