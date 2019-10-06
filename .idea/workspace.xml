@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,9 @@
       <workItem from="1569844257483" duration="1694000" />
       <workItem from="1570111220311" duration="6496000" />
       <workItem from="1570172926159" duration="2437000" />
-      <workItem from="1570191040354" duration="6113000" />
+      <workItem from="1570191040354" duration="6414000" />
+      <workItem from="1570257118195" duration="4241000" />
+      <workItem from="1570346811588" duration="5061000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -238,7 +240,63 @@
       <option name="project" value="LOCAL" />
       <updated>1570198933853</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add Route &amp; BrowserRoute">
+      <created>1570199952585</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1570199952585</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Ann NavLink to NavBar">
+      <created>1570258826290</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1570258826290</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new styles for &lt;a&gt; in navbar">
+      <created>1570259814347</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570259814347</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add dialogs users + add messages text">
+      <created>1570262210323</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570262210323</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test exact path">
+      <created>1570348173474</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570348173474</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add props to dialogItems">
+      <created>1570349562592</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570349562592</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add props to Message">
+      <created>1570349854363</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1570349854363</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactoring styles for Profile Page">
+      <created>1570351059253</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1570351059253</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,11 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start new app" />
-    <MESSAGE value="add new directories and js files" />
-    <MESSAGE value="add css module files to components directions" />
-    <MESSAGE value="import &amp; export Header" />
-    <MESSAGE value="import &amp; export Navbar" />
     <MESSAGE value="import &amp; export Profile" />
     <MESSAGE value="import &amp; export DialogsPage" />
     <MESSAGE value="import &amp; export News" />
@@ -305,6 +358,14 @@
     <MESSAGE value="add first props in Post component" />
     <MESSAGE value="reconstruction styles for content area" />
     <MESSAGE value="react router dom installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="react router dom installed" />
+    <MESSAGE value="add Route &amp; BrowserRoute" />
+    <MESSAGE value="Ann NavLink to NavBar" />
+    <MESSAGE value="new styles for &lt;a&gt; in navbar" />
+    <MESSAGE value="add dialogs users + add messages text" />
+    <MESSAGE value="test exact path" />
+    <MESSAGE value="add props to dialogItems" />
+    <MESSAGE value="add props to Message" />
+    <MESSAGE value="refactoring styles for Profile Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring styles for Profile Page" />
   </component>
 </project>
