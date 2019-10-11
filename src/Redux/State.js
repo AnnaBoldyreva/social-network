@@ -1,3 +1,5 @@
+
+
 let state = {
     profilePage: {
         postsData: [
@@ -15,11 +17,11 @@ let state = {
             {id: 5, name: 'Katya'}
         ],
         messagesData : [
-            {id: 1, name: 'Nick'},
-            {id: 2, name: 'Eric'},
-            {id: 3, name: 'Malone'},
-            {id: 4, name: 'Kirill'},
-            {id: 5, name: 'Katya'}
+            {id: 1, message: 'Hello'},
+            {id: 2, message: 'How are you?'},
+            {id: 3, message: 'Good,you?'},
+            {id: 4, message: 'Yo,dude'},
+            {id: 5, message: 'Okey,bro'}
         ],
     }
 };
