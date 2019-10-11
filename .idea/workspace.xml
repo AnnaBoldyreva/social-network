@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,10 @@
       <workItem from="1570172926159" duration="2437000" />
       <workItem from="1570191040354" duration="6414000" />
       <workItem from="1570257118195" duration="4241000" />
-      <workItem from="1570346811588" duration="5061000" />
+      <workItem from="1570346811588" duration="6762000" />
+      <workItem from="1570610933987" duration="796000" />
+      <workItem from="1570622390978" duration="169000" />
+      <workItem from="1570779696679" duration="2158000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -296,7 +299,42 @@
       <option name="project" value="LOCAL" />
       <updated>1570351059253</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="create array with data for Posts, Dialogs">
+      <created>1570352758941</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1570352758941</updated>
+    </task>
+    <task id="LOCAL-00032" summary="create obj postsElements by postsData.map">
+      <created>1570354875458</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1570354875458</updated>
+    </task>
+    <task id="LOCAL-00033" summary="create obj dialogsElement by dialogsData.map&#10;create obj messagesElement by messagesData.map">
+      <created>1570355297861</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1570355297861</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add Data in App component, props">
+      <created>1570782172468</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1570782172468</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add Data in index.js, props">
+      <created>1570782507524</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1570782507524</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,11 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="import &amp; export Profile" />
-    <MESSAGE value="import &amp; export DialogsPage" />
-    <MESSAGE value="import &amp; export News" />
-    <MESSAGE value="import &amp; export &lt;MusicPage" />
-    <MESSAGE value="import &amp; export SettingsPage" />
     <MESSAGE value="add grid styles to App and Header + add logo img" />
     <MESSAGE value="add grid styles to Navbar + add list of navigation items" />
     <MESSAGE value="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts" />
@@ -366,6 +399,11 @@
     <MESSAGE value="add props to dialogItems" />
     <MESSAGE value="add props to Message" />
     <MESSAGE value="refactoring styles for Profile Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring styles for Profile Page" />
+    <MESSAGE value="create array with data for Posts, Dialogs" />
+    <MESSAGE value="create obj postsElements by postsData.map" />
+    <MESSAGE value="create obj dialogsElement by dialogsData.map&#10;create obj messagesElement by messagesData.map" />
+    <MESSAGE value="add Data in App component, props" />
+    <MESSAGE value="add Data in index.js, props" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Data in index.js, props" />
   </component>
 </project>
