@@ -11,6 +11,12 @@ import {BrowserRouter, Route} from "react-router-dom";
 
 
 function App() {
+
+    let postsData = [
+        {id: 1, message: 'Hi,sweet baby!', likeCount: 432},
+        {id: 2, message: 'I miss you, babe', likeCount: 689},
+        {id: 3, message: 'Call me maybe', likeCount: 890}
+    ];
   return (
       <BrowserRouter>
     <div className='appWrapper'>
@@ -18,11 +24,11 @@ function App() {
    <Navbar/>
 
         <div className='contentWrapper'>
-            <Route path='/profile'  component={Profile}/>
-            <Route path='/dialogs'  component={DialogsPage}/>
-            <Route path='/news'     component={News}/>
-            <Route path='/music'    component={MusicPage}/>
-            <Route path='/settings' component={SettingsPage}/>
+            <Route path='/profile'   render={()=> <Profile postsData={postsData} />}/>
+            <Route path='/dialogs'   render={()=> <DialogsPage />}/>
+            <Route path='/news'      render={()=> <News />}/>
+            <Route path='/music'     render={()=> <MusicPage />}/>
+            <Route path='/settings'  render={()=> <SettingsPage />}/>
         </div>
     </div>
       </BrowserRouter>
