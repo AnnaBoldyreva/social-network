@@ -18,7 +18,15 @@ let dialogsData = [
     {id: 5, name: 'Katya'}
 ];
 
-ReactDOM.render(<App postsData={postsData} dialogsData={dialogsData} />, document.getElementById('root'));
+let messagesData = [
+    {id: 1, message:'Hello'},
+    {id: 2, message:'How are you?'},
+    {id: 3, message:'Good,you?'},
+    {id: 4, message:'Yo,dude?'},
+    {id: 5, message:'Okey,bro'}
+];
+
+ReactDOM.render(<App postsData={postsData} dialogsData={dialogsData} messagesData={messagesData} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
