@@ -10,13 +10,8 @@ import SettingsPage from "./SettingsPage/SettingsPage";
 import {BrowserRouter, Route} from "react-router-dom";
 
 
-function App() {
+function App(props) {
 
-    let postsData = [
-        {id: 1, message: 'Hi,sweet baby!', likeCount: 432},
-        {id: 2, message: 'I miss you, babe', likeCount: 689},
-        {id: 3, message: 'Call me maybe', likeCount: 890}
-    ];
   return (
       <BrowserRouter>
     <div className='appWrapper'>
@@ -24,7 +19,7 @@ function App() {
    <Navbar/>
 
         <div className='contentWrapper'>
-            <Route path='/profile'   render={()=> <Profile postsData={postsData} />}/>
+            <Route path='/profile'   render={()=> <Profile postsData={props.postsData} />}/>
             <Route path='/dialogs'   render={()=> <DialogsPage />}/>
             <Route path='/news'      render={()=> <News />}/>
             <Route path='/music'     render={()=> <MusicPage />}/>
