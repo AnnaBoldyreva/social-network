@@ -4,11 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-let postsData = [
-    {id: 1, message: 'Hi,sweet baby!', likeCount: 432},
-    {id: 2, message: 'I miss you, babe', likeCount: 689},
-    {id: 3, message: 'Call me maybe', likeCount: 890}
-];
+
 
 let dialogsData = [
     {id: 1, name: 'Nick'},
@@ -25,6 +21,13 @@ let messagesData = [
     {id: 4, message:'Yo,dude?'},
     {id: 5, message:'Okey,bro'}
 ];
+
+let postsData = [
+    {id: 1, message: 'Hi,sweet baby!', likeCount: 432},
+    {id: 2, message: 'I miss you, babe', likeCount: 689},
+    {id: 3, message: 'Call me maybe', likeCount: 890}
+];
+
 
 ReactDOM.render(<App postsData={postsData} dialogsData={dialogsData} messagesData={messagesData} />, document.getElementById('root'));
 
