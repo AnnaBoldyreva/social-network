@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Dialog.module.css'
 import {NavLink} from "react-router-dom";
+import PropTypes from 'prop-types';
 
 
 
@@ -19,3 +20,6 @@ const Dialog = (props) => {
 };
 
 export default Dialog;
+Dialog.propTypes = {
+    name: PropTypes.array
+};
