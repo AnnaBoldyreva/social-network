@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment=" more refactoring State">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/DialogsPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,8 @@
       <workItem from="1570346811588" duration="6762000" />
       <workItem from="1570610933987" duration="796000" />
       <workItem from="1570622390978" duration="169000" />
-      <workItem from="1570779696679" duration="2158000" />
+      <workItem from="1570779696679" duration="2845000" />
+      <workItem from="1570784263730" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -334,7 +333,56 @@
       <option name="project" value="LOCAL" />
       <updated>1570782507524</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add dialogsData in index.js, props">
+      <created>1570782858993</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570782858993</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add messagesData in index.js, props">
+      <created>1570782948665</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1570782948665</updated>
+    </task>
+    <task id="LOCAL-00038" summary="create state and add all data in state">
+      <created>1570786894367</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570786894367</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add state through props.state in App">
+      <created>1570787377124</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1570787377124</updated>
+    </task>
+    <task id="LOCAL-00040" summary="refactoring State  + add several brunch">
+      <created>1570787901532</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1570787901532</updated>
+    </task>
+    <task id="LOCAL-00041" summary=" more refactoring State">
+      <created>1570788285165</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1570788285165</updated>
+    </task>
+    <task id="LOCAL-00042" summary=" more refactoring State">
+      <created>1570788613176</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1570788613176</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,12 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add grid styles to App and Header + add logo img" />
-    <MESSAGE value="add grid styles to Navbar + add list of navigation items" />
-    <MESSAGE value="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts" />
-    <MESSAGE value="add two components Dialog &amp; Message to component DialogPage" />
-    <MESSAGE value="add grid styles to DialogsPage" />
-    <MESSAGE value="disabled styles.news in component News" />
     <MESSAGE value="disabled styles.music in component MusicPage" />
     <MESSAGE value="disabled styles.settings in component SettingsPage" />
     <MESSAGE value="add component Post into component MyPosts" />
@@ -404,6 +446,24 @@
     <MESSAGE value="create obj dialogsElement by dialogsData.map&#10;create obj messagesElement by messagesData.map" />
     <MESSAGE value="add Data in App component, props" />
     <MESSAGE value="add Data in index.js, props" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Data in index.js, props" />
+    <MESSAGE value="add dialogsData in index.js, props" />
+    <MESSAGE value="add messagesData in index.js, props" />
+    <MESSAGE value="create state and add all data in state" />
+    <MESSAGE value="add state through props.state in App" />
+    <MESSAGE value="refactoring State  + add several brunch" />
+    <MESSAGE value=" more refactoring State" />
+    <option name="LAST_COMMIT_MESSAGE" value=" more refactoring State" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Redux/State.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
