@@ -14,7 +14,7 @@ const MyPosts = (props) => {
             <textarea placeholder='type something...'>
             </textarea>
                 <div>
-                    <button>post</button>
+                    <button onClick={() => {alert('samurai')}}>post</button>
                 </div>
             </div>
             {postsElement}
