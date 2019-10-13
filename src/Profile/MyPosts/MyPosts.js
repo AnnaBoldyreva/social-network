@@ -7,6 +7,10 @@ const MyPosts = (props) => {
 
     let postsElement = props.postsData.map(post => <Post message={post.message} likeCount={post.likeCount}/>);
 
+    let addPost = () => {
+        alert('samurai')
+    };
+
     return (
         <div className={styles.postsWrapper}>
             <h2>My new Post</h2>
@@ -14,7 +18,7 @@ const MyPosts = (props) => {
             <textarea placeholder='type something...'>
             </textarea>
                 <div>
-                    <button onClick={() => {alert('samurai')}}>post</button>
+                    <button onClick={addPost}>post</button>
                 </div>
             </div>
             {postsElement}
