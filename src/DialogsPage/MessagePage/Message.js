@@ -9,7 +9,7 @@ const Message = (props) => {
 
   let sendMessage = () => {
     let text = messageEl.current.value;
-    alert(text)
+    props.sendMessage(text)
   };
 
   return (

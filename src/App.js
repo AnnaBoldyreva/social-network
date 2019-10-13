@@ -23,7 +23,8 @@ function App(props) {
                 state={props.state.profilePage}
                 addPost={props.addPost} />}/>
             <Route path='/dialogs'   render={()=> <DialogsPage
-                state={props.state.dialogPage} />}/>
+                state={props.state.dialogPage}
+                sendMessage={props.sendMessage}/>}/>
             <Route path='/news'      render={()=> <News />}/>
             <Route path='/music'     render={()=> <MusicPage />}/>
             <Route path='/settings'  render={()=> <SettingsPage />}/>
