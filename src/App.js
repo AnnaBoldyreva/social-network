@@ -20,9 +20,9 @@ function App(props) {
 
         <div className='contentWrapper'>
             <Route path='/profile'   render={()=> <Profile
-                state={props.state.profilePage} />}/>
+                state={props.state.profilePage}
+                addPost={props.addPost} />}/>
             <Route path='/dialogs'   render={()=> <DialogsPage
-                state={props.state.dialogPage}
                 state={props.state.dialogPage} />}/>
             <Route path='/news'      render={()=> <News />}/>
             <Route path='/music'     render={()=> <MusicPage />}/>

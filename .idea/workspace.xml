@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="try Onclick in button post , in MyPosts component">
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogsPage/MessagePage/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/MessagePage/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +93,7 @@
       <workItem from="1570779696679" duration="2845000" />
       <workItem from="1570784263730" duration="3215000" />
       <workItem from="1570883707805" duration="225000" />
-      <workItem from="1570963191438" duration="2020000" />
+      <workItem from="1570963191438" duration="4484000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -420,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570965318492</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="handle event Onclick, now we can read Data from UI by using input">
+      <created>1570966121120</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1570966121120</updated>
+    </task>
+    <task id="LOCAL-00049" summary="refactoring">
+      <created>1570966189262</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1570966189262</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="react router dom installed" />
-    <MESSAGE value="add Route &amp; BrowserRoute" />
     <MESSAGE value="Ann NavLink to NavBar" />
     <MESSAGE value="new styles for &lt;a&gt; in navbar" />
     <MESSAGE value="add dialogs users + add messages text" />
@@ -490,17 +506,8 @@
     <MESSAGE value="try Onclick in button post , in MyPosts component" />
     <MESSAGE value="add addPost function and give it to button" />
     <MESSAGE value="create ref, give it to textarea, after give ref to addPost function" />
-    <option name="LAST_COMMIT_MESSAGE" value="create ref, give it to textarea, after give ref to addPost function" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Redux/State.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="handle event Onclick, now we can read Data from UI by using input" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
