@@ -8,7 +8,7 @@ const Message = (props) => {
   let messageEl = React.createRef();
 
   let sendMessage = () => {
-    let text = messageEl.current.value
+    let text = messageEl.current.value;
     alert(text)
   };
 

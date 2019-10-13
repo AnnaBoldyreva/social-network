@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment=" more refactoring State">
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="try Onclick in button post , in MyPosts component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogsPage/MessagePage/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogsPage/MessagePage/Message.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +88,8 @@
       <workItem from="1570622390978" duration="169000" />
       <workItem from="1570779696679" duration="2845000" />
       <workItem from="1570784263730" duration="3215000" />
+      <workItem from="1570883707805" duration="225000" />
+      <workItem from="1570963191438" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="start new app">
       <created>1569846919737</created>
@@ -382,7 +385,42 @@
       <option name="project" value="LOCAL" />
       <updated>1570788613176</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="install propTypes">
+      <created>1570883814838</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1570883814838</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add propTypes in Dialog component">
+      <created>1570883910717</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1570883910717</updated>
+    </task>
+    <task id="LOCAL-00045" summary="try Onclick in button post , in MyPosts component">
+      <created>1570963443114</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1570963443114</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add addPost function and give it to button">
+      <created>1570964148184</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1570964148184</updated>
+    </task>
+    <task id="LOCAL-00047" summary="create ref, give it to textarea, after give ref to addPost function">
+      <created>1570965318492</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1570965318492</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,11 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="disabled styles.music in component MusicPage" />
-    <MESSAGE value="disabled styles.settings in component SettingsPage" />
-    <MESSAGE value="add component Post into component MyPosts" />
-    <MESSAGE value="add first props in Post component" />
-    <MESSAGE value="reconstruction styles for content area" />
     <MESSAGE value="react router dom installed" />
     <MESSAGE value="add Route &amp; BrowserRoute" />
     <MESSAGE value="Ann NavLink to NavBar" />
@@ -452,7 +485,12 @@
     <MESSAGE value="add state through props.state in App" />
     <MESSAGE value="refactoring State  + add several brunch" />
     <MESSAGE value=" more refactoring State" />
-    <option name="LAST_COMMIT_MESSAGE" value=" more refactoring State" />
+    <MESSAGE value="install propTypes" />
+    <MESSAGE value="add propTypes in Dialog component" />
+    <MESSAGE value="try Onclick in button post , in MyPosts component" />
+    <MESSAGE value="add addPost function and give it to button" />
+    <MESSAGE value="create ref, give it to textarea, after give ref to addPost function" />
+    <option name="LAST_COMMIT_MESSAGE" value="create ref, give it to textarea, after give ref to addPost function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,7 +498,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Redux/State.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
