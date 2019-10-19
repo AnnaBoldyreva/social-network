@@ -12,7 +12,13 @@ const MyPosts = (props) => {
     let addPost = () => {
         let text = newPostElement.current.value;
         props.addPost(text);
-        newPostElement.current.value = " ";
+        props.updateNewPostText('');
+
+    };
+
+    let onPostChange = () => {
+        let text = newPostElement.current.value;
+        props.updateNewPostText(text);
 
     };
 
@@ -20,8 +26,7 @@ const MyPosts = (props) => {
         <div className={styles.postsWrapper}>
             <h2>My new Post</h2>
             <div>
-            <textarea  ref={newPostElement} placeholder='type something...'>
-            </textarea >
+            <textarea onChange={onPostChange} ref={newPostElement} placeholder='type something...' value={props.newPostText} />
                 <div>
                     <button onClick={addPost}>post</button>
                 </div>

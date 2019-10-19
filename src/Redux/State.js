@@ -7,7 +7,8 @@ let state = {
             {id: 1, message: 'Hi,sweet baby!', likeCount: 432},
             {id: 2, message: 'I miss you, babe', likeCount: 689},
             {id: 3, message: 'Call me maybe', likeCount: 890}
-        ]
+        ],
+        newPostText: ''
     },
     dialogPage : {
         dialogsData : [
@@ -35,6 +36,11 @@ let state = {
     };
     state.profilePage.postsData.push(newPost);
      renenderEntireTree(state);
+};
+
+export let updateNewPostText = (newText) => {
+    state.profilePage.newPostText= newText;
+    renenderEntireTree(state);
 };
 
  export let sendMessage = (message) =>{

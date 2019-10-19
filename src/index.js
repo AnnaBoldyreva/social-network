@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {renenderEntireTree} from "./render";

@@ -20,8 +20,9 @@ function App(props) {
 
         <div className='contentWrapper'>
             <Route path='/profile'   render={()=> <Profile
-                state={props.state.profilePage}
-                addPost={props.addPost} />}/>
+                profilePage={props.state.profilePage}
+                addPost={props.addPost}
+                updateNewPostText={props.updateNewPostText}/>}/>
             <Route path='/dialogs'   render={()=> <DialogsPage
                 state={props.state.dialogPage}
                 sendMessage={props.sendMessage}/>}/>
