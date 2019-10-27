@@ -1,6 +1,6 @@
 
 let renenderEntireTree = () => {
-    console.log('hey u')
+    console.log('rerender')
 };
 
 let state = {

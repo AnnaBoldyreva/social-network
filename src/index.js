@@ -11,7 +11,7 @@ import {sendMessage} from "./Redux/State";
 import {BrowserRouter} from "react-router-dom";
 
 
- let renenderEntireTree = () => {
+ let renenderEntireTree = (state) => {
 
     ReactDOM.render(
         <BrowserRouter>
