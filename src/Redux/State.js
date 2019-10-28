@@ -1,3 +1,7 @@
+let store = {
+
+};
+
 
 let renenderEntireTree = () => {
     console.log('rerender')
