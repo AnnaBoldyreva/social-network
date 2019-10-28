@@ -13,7 +13,7 @@ import {BrowserRouter} from "react-router-dom";
 
     ReactDOM.render(
         <BrowserRouter>
-            <App state={store.getState()} addPost={store.addPost} sendMessage={store.sendMessage} updateNewPostText={store.updateNewPostText}/>
+            <App state={state} addPost={store.addPost.bind(store)} sendMessage={store.sendMessage.bind(store)} updateNewPostText={store.updateNewPostText.bind(store)}/>
         </BrowserRouter>, document.getElementById('root'));
 
 };
