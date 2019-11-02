@@ -1,7 +1,12 @@
 import React from 'react';
 import styles from './Message.module.css';
 
-
+let sendMessageActionCreator = (text) => {
+   return {
+     type: 'SEND-MESSAGE',
+     message: text
+   }
+};
 
 const Message = (props) => {
 
@@ -9,7 +14,7 @@ const Message = (props) => {
 
   let sendMessage = () => {
     let text = messageEl.current.value;
-    let action = {type:'SEND-MESSAGE', message: text};
+    let action = sendMessageActionCreator(text);
     props.dispatch(action)
   };
 
