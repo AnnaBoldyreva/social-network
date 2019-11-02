@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="create render file with render function, add render state through props to index.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/MyPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Profile/MyPosts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -31,18 +27,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Profile/MyPosts" />
+      <recent name="$PROJECT_DIR$/src/DialogsPage" />
+      <recent name="$PROJECT_DIR$/src/Profile" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Profile/MyPosts/PostItem" />
       <recent name="$PROJECT_DIR$/src/DialogsPage/MessagePage" />
       <recent name="$PROJECT_DIR$/src/DialogsPage/Dialog" />
       <recent name="$PROJECT_DIR$/src/Profile/MyPosts" />
       <recent name="$PROJECT_DIR$/src/Profile/ProfileInfo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Profile/MyPosts" />
-      <recent name="$PROJECT_DIR$/src/DialogsPage" />
-      <recent name="$PROJECT_DIR$/src/Profile" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,112 +89,15 @@
       <workItem from="1570779696679" duration="2845000" />
       <workItem from="1570784263730" duration="3215000" />
       <workItem from="1570883707805" duration="225000" />
-      <workItem from="1570963191438" duration="4484000" />
-    </task>
-    <task id="LOCAL-00001" summary="start new app">
-      <created>1569846919737</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1569846919737</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add new directories and js files">
-      <created>1570115067354</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1570115067354</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add css module files to components directions">
-      <created>1570115412802</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1570115412802</updated>
-    </task>
-    <task id="LOCAL-00004" summary="import &amp; export Header">
-      <created>1570115661856</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1570115661856</updated>
-    </task>
-    <task id="LOCAL-00005" summary="import &amp; export Navbar">
-      <created>1570116005988</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1570116005988</updated>
-    </task>
-    <task id="LOCAL-00006" summary="import &amp; export Profile">
-      <created>1570116203738</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1570116203738</updated>
-    </task>
-    <task id="LOCAL-00007" summary="import &amp; export DialogsPage">
-      <created>1570116491407</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1570116491407</updated>
-    </task>
-    <task id="LOCAL-00008" summary="import &amp; export News">
-      <created>1570116599818</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1570116599818</updated>
-    </task>
-    <task id="LOCAL-00009" summary="import &amp; export &lt;MusicPage">
-      <created>1570116704532</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1570116704532</updated>
-    </task>
-    <task id="LOCAL-00010" summary="import &amp; export SettingsPage">
-      <created>1570116824080</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1570116824080</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add grid styles to App and Header + add logo img">
-      <created>1570117681980</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1570117681980</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add grid styles to Navbar + add list of navigation items">
-      <created>1570118046192</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1570118046192</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add grid styles to Profile + add two new components ProfileInfo &amp; MyPosts">
-      <created>1570119396710</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1570119396710</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add two components Dialog &amp; Message to component DialogPage">
-      <created>1570174620179</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1570174620179</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add grid styles to DialogsPage">
-      <created>1570175031619</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1570175031619</updated>
+      <workItem from="1570963191438" duration="4791000" />
+      <workItem from="1570974979676" duration="398000" />
+      <workItem from="1571494472470" duration="4629000" />
+      <workItem from="1572162723630" duration="1519000" />
+      <workItem from="1572178560978" duration="188000" />
+      <workItem from="1572263686326" duration="2111000" />
+      <workItem from="1572355415926" duration="60000" />
+      <workItem from="1572358348599" duration="134000" />
+      <workItem from="1572693479385" duration="4631000" />
     </task>
     <task id="LOCAL-00016" summary="disabled styles.news in component News">
       <created>1570175343000</created>
@@ -438,7 +337,112 @@
       <option name="project" value="LOCAL" />
       <updated>1570966189262</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add BLL function in state, function add newPost object, after use props for MyPost component with this function">
+      <created>1570971567383</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1570971567383</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add BLL function to Message component by props">
+      <created>1570975358573</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1570975358573</updated>
+    </task>
+    <task id="LOCAL-00052" summary="create render file with render function, add render state through props to index.js">
+      <created>1571496738333</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1571496738333</updated>
+    </task>
+    <task id="LOCAL-00053" summary="reset imput">
+      <created>1571496853615</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1571496853615</updated>
+    </task>
+    <task id="LOCAL-00054" summary="practice use function onChange">
+      <created>1571501073851</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1571501073851</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update function AddPost">
+      <created>1571501519216</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1571501519216</updated>
+    </task>
+    <task id="LOCAL-00056" summary="del render js. create pattern observer">
+      <created>1572163735913</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1572163735913</updated>
+    </task>
+    <task id="LOCAL-00057" summary="refactoring">
+      <created>1572164678175</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1572164678175</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add store">
+      <created>1572263818132</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1572263818132</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add obj and methods to store">
+      <created>1572265052872</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1572265052872</updated>
+    </task>
+    <task id="LOCAL-00060" summary="refactoring">
+      <created>1572265087088</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1572265087088</updated>
+    </task>
+    <task id="LOCAL-00061" summary="refactoring 01">
+      <created>1572265555551</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1572265555551</updated>
+    </task>
+    <task id="LOCAL-00062" summary="create dispatch, use props and action in components">
+      <created>1572696545035</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1572696545035</updated>
+    </task>
+    <task id="LOCAL-00063" summary="action creator">
+      <created>1572698427817</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1572698427817</updated>
+    </task>
+    <task id="LOCAL-00064" summary="export and import action creator">
+      <created>1572698875842</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1572698875843</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,19 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ann NavLink to NavBar" />
-    <MESSAGE value="new styles for &lt;a&gt; in navbar" />
-    <MESSAGE value="add dialogs users + add messages text" />
-    <MESSAGE value="test exact path" />
-    <MESSAGE value="add props to dialogItems" />
-    <MESSAGE value="add props to Message" />
-    <MESSAGE value="refactoring styles for Profile Page" />
-    <MESSAGE value="create array with data for Posts, Dialogs" />
-    <MESSAGE value="create obj postsElements by postsData.map" />
-    <MESSAGE value="create obj dialogsElement by dialogsData.map&#10;create obj messagesElement by messagesData.map" />
-    <MESSAGE value="add Data in App component, props" />
-    <MESSAGE value="add Data in index.js, props" />
-    <MESSAGE value="add dialogsData in index.js, props" />
     <MESSAGE value="add messagesData in index.js, props" />
     <MESSAGE value="create state and add all data in state" />
     <MESSAGE value="add state through props.state in App" />
@@ -507,7 +498,20 @@
     <MESSAGE value="add addPost function and give it to button" />
     <MESSAGE value="create ref, give it to textarea, after give ref to addPost function" />
     <MESSAGE value="handle event Onclick, now we can read Data from UI by using input" />
+    <MESSAGE value="add BLL function in state, function add newPost object, after use props for MyPost component with this function" />
+    <MESSAGE value="add BLL function to Message component by props" />
+    <MESSAGE value="create render file with render function, add render state through props to index.js" />
+    <MESSAGE value="reset imput" />
+    <MESSAGE value="practice use function onChange" />
+    <MESSAGE value="update function AddPost" />
+    <MESSAGE value="del render js. create pattern observer" />
+    <MESSAGE value="add store" />
+    <MESSAGE value="add obj and methods to store" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="refactoring 01" />
+    <MESSAGE value="create dispatch, use props and action in components" />
+    <MESSAGE value="action creator" />
+    <MESSAGE value="export and import action creator" />
+    <option name="LAST_COMMIT_MESSAGE" value="export and import action creator" />
   </component>
 </project>
