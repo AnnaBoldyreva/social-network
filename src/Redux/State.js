@@ -50,7 +50,8 @@ let store = {
                     id: 6,
                     message: action.message
                 };
-                this._state.dialogPage.messagesData.push(newMessage)
+                this._state.dialogPage.messagesData.push(newMessage);
+                this._callSubscriber(this._state);
             }
 
     },
@@ -60,8 +61,28 @@ let store = {
 },
     getState(){
         return this._state
-    }
+    },
 
+};
+
+    export const addPostActionCreator = () => {
+        return {
+            type: 'ADD-POST'
+        }
+    };
+
+    export  const updateNewPostTextActionCreator = (text) => {
+    return {
+        type: 'UPDATE-NEW-POST-TEXT',
+        newText: text
+    }
+  };
+
+    export const  sendMessageActionCreator = (text) => {
+    return {
+        type: 'SEND-MESSAGE',
+        message: text
+    }
 };
 
 export default store;

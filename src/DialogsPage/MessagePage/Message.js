@@ -1,12 +1,8 @@
 import React from 'react';
 import styles from './Message.module.css';
+import {sendMessageActionCreator} from "../../Redux/State";
 
-let sendMessageActionCreator = (text) => {
-   return {
-     type: 'SEND-MESSAGE',
-     message: text
-   }
-};
+
 
 const Message = (props) => {
 
