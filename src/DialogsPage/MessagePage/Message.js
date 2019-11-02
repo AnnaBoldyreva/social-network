@@ -9,7 +9,8 @@ const Message = (props) => {
 
   let sendMessage = () => {
     let text = messageEl.current.value;
-    props.sendMessage(text)
+    let action = {type:'SEND-MESSAGE', message: text};
+    props.dispatch(action)
   };
 
   return (

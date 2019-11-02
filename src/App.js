@@ -21,11 +21,10 @@ function App(props) {
         <div className='contentWrapper'>
             <Route path='/profile'   render={()=> <Profile
                 profilePage={props.state.profilePage}
-                addPost={props.addPost}
-                updateNewPostText={props.updateNewPostText}/>}/>
+                dispatch={props.dispatch}/>}/>
             <Route path='/dialogs'   render={()=> <DialogsPage
                 state={props.state.dialogPage}
-                sendMessage={props.sendMessage}/>}/>
+                dispatch={props.dispatch}/>}/>
             <Route path='/news'      render={()=> <News />}/>
             <Route path='/music'     render={()=> <MusicPage />}/>
             <Route path='/settings'  render={()=> <SettingsPage />}/>
