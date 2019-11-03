@@ -55,9 +55,11 @@ let store = {
             if(action.type === SEND_MESSAGE){
                 let newMessage = {
                     id: 6,
-                    message: action.message
+                    message: this._state.dialogPage.newMessageText
+                        // action.message
                 };
                 this._state.dialogPage.messagesData.push(newMessage);
+                this._state.dialogPage.newMessageText = '';
                 this._callSubscriber(this._state);
             } else
                 if(action.type === UPDATE_NEW_MESSAGE_TEXT){
