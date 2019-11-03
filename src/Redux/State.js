@@ -1,6 +1,7 @@
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 const SEND_MESSAGE = 'SEND-MESSAGE';
+const UPDATE_NEW_MESSAGE_TEXT = 'UPDATE_NEW_MESSAGE_TEXT';
 
 
 let store = {
@@ -28,6 +29,7 @@ let store = {
                 {id: 4, message: 'Yo,dude'},
                 {id: 5, message: 'Okey,bro'}
             ],
+            newMessageText: ''
         }
     },
     _callSubscriber() {
@@ -57,7 +59,11 @@ let store = {
                 };
                 this._state.dialogPage.messagesData.push(newMessage);
                 this._callSubscriber(this._state);
-            }
+            } else
+                if(action.type === UPDATE_NEW_MESSAGE_TEXT){
+                    this._state.dialogPage.newMessageText = action.newText;
+                    this._callSubscriber(this._state)
+                }
 
     },
 
@@ -71,8 +77,9 @@ let store = {
 };
 
     export const addPostActionCreator = () =>  ({type: ADD_POST});
-    export  const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
-    export const  sendMessageActionCreator = (text) => ({type: SEND_MESSAGE, message: text});
+    export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
+    export const sendMessageActionCreator = (text) => ({type: SEND_MESSAGE, message: text});
+    export const updateNewMessageTextActionCreator = (text) => ({type: UPDATE_NEW_MESSAGE_TEXT, newText: text});
 
 
 export default store;
