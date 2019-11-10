@@ -13,7 +13,7 @@ import {BrowserRouter} from "react-router-dom";
 
     ReactDOM.render(
         <BrowserRouter>
-            <App state={state}  dispatch={store.dispatch.bind(store) }/>
+            <App state={state} store={store} dispatch={store.dispatch.bind(store) }/>
         </BrowserRouter>, document.getElementById('root'));
 
 };
