@@ -21,12 +21,14 @@ import {Provider} from "react-redux";
 
 };
 
-rerenderEntireTree(store.getState());
+rerenderEntireTree(
+    // store.getState()
+);
 
-store.subscribe( () => {
-    let state = store.getState();
-    rerenderEntireTree(state);
-});
+// store.subscribe( () => {
+//     let state = store.getState();
+//     rerenderEntireTree(state);
+// });
 
 
 
