@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="connect for PostsPage by react-redux">
+    <list default="true" id="9f684913-aec1-4dd4-a582-dd6d0b72d1d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogs-reducer.js" afterDir="false" />
     </list>
@@ -107,14 +107,7 @@
       <workItem from="1573397978589" duration="417000" />
       <workItem from="1573832094824" duration="2797000" />
       <workItem from="1574404745193" duration="761000" />
-      <workItem from="1574666373641" duration="1376000" />
-    </task>
-    <task id="LOCAL-00035" summary="add Data in index.js, props">
-      <created>1570782507524</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1570782507524</updated>
+      <workItem from="1574666373641" duration="3391000" />
     </task>
     <task id="LOCAL-00036" summary="add dialogsData in index.js, props">
       <created>1570782858993</created>
@@ -452,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574667760744</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="add deep copy for Dialog Reducer">
+      <created>1574677319966</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1574677319966</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="del render js. create pattern observer" />
     <MESSAGE value="add store" />
     <MESSAGE value="add obj and methods to store" />
     <MESSAGE value="refactoring 01" />
@@ -522,6 +521,7 @@
     <MESSAGE value="create connect by react-redux" />
     <MESSAGE value="connect for PostsPage by react-redux" />
     <MESSAGE value="add deep copy of posts state" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deep copy of posts state" />
+    <MESSAGE value="add deep copy for Dialog Reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add deep copy for Dialog Reducer" />
   </component>
 </project>
